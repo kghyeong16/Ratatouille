@@ -1,0 +1,23 @@
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  width: 768px;
+  justify-content: space-between;
+}
+
+.class-review {
+  width: 350px; /* 2열로 표시하기 위한 너비 설정 */
+  margin-bottom: 20px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,10 @@
+.recipe-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipe-title-num {
+  font-size: 1.5rem;
+  margin: 0;
+}

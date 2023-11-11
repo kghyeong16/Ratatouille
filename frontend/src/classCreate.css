@@ -1,0 +1,50 @@
+.create-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1048px;
+  margin:auto
+}
+
+.image-preview-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-upload-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.img-upload-preview {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.recipe-box {
+  width: 100%;
+}
+
+.stateSelector {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-selector{
+  width: 78px;
+  height: 56px;
+  margin-top:8px;
+  margin-left: 2rem; 
+}
+
+.open-btn{
+  margin-bottom:2rem;
+}

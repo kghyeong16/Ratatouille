@@ -1,0 +1,33 @@
+.Home {
+display: flex;
+justify-content: center; /* 가로 가운데 정렬 */
+align-items: center; /* 세로 가운데 정렬 */
+}
+
+/* .home-content 스타일을 원하는 너비로 설정 */
+.home-content {
+    width: 1048px;
+    display:block;
+}
+.banner {
+    display:flex;
+    justify-content: center;
+    margin-top : 0;
+}
+.btn{
+    margin-top:2rem;
+    display:flex;
+    justify-content: center;
+}
+.banner-img{
+    width:100%;
+    height: 100%;
+}
+
+.carousel-list .card-box{
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    max-width: 246px;
+    overflow: visible;
+}

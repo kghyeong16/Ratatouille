@@ -1,0 +1,138 @@
+/* 슬라이드 캐러셀 전체 영역 */
+.carousel-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  /* width:1048px; */
+}
+
+/* 슬라이드 목록 컨테이너 */
+.big-carousel-show {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1560px;
+  margin-bottom: 20px;
+}
+
+.carousel-show {
+  overflow: hidden;
+  width: 100%;
+  max-width: 786px;
+  margin-bottom: 20px;
+}
+
+/* 각 슬라이드 */
+.carousel-list {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* 버튼 스타일 */
+.prev,
+.next {
+  padding: 5px 10px;
+  margin: 0 10px;
+  width: 50px;
+  cursor: pointer;
+  background-color: #ff385c;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.cards-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+}
+.card-box {
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  overflow:hidden;
+  max-width:246px;
+  
+}
+.big-card-box{
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.swiper-container {
+  height: 270px;
+  width: 270px;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 246px;
+  width: 246px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.big-card-img {
+  height: 360px;
+  width: 360px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.card-info-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card-box .swiper-pagination-bullet-active {
+  background-color: var(--white) !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .swiper-container,
+  .card-img {
+    height: 400px;
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .swiper-container,
+  .card-img {
+    height: 50%;
+    max-height: 400px;
+    width: 90vw;
+  }
+
+  .cards-flex {
+    padding: 0px;
+  }
+}
+
+.initial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.additional-cards {
+  display: flex;
+}
+
+.detail-cards{
+  display:flex;
+  width: 1048px;
+  /* justify-content: center; */
+}
+
+.tutor-class-container{
+  display:flex;
+  /* justify-content: ; */
+}

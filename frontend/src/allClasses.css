@@ -1,0 +1,15 @@
+.all-classes{
+  width: 1048px;
+}
+
+.classes-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.class-cards{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}

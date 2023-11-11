@@ -1,0 +1,48 @@
+<html layout:decorate="~{layout}">
+<div layout:fragment="content" class="container my-3">
+    <div class="my-3 border-bottom">
+        <div>
+            <h4>회원가입</h4>
+        </div>
+    </div>
+    <form th:action="@{/user/signup}" th:object="${userCreateForm}" method="post">
+        <div th:replace="~{form_errors :: formErrorsFragment}"></div>
+        <div class="mb-3">
+            <label for="email" class="form-label">사용자ID(이메일)</label>
+            <input type="text" th:field="*{email}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="password1" class="form-label">비밀번호</label>
+            <input type="password" th:field="*{password1}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="password2" class="form-label">비밀번호 확인</label>
+            <input type="password" th:field="*{password2}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">이름</label>
+            <input type="text" th:field="*{name}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="nickname" class="form-label">별명</label>
+            <input type="text" th:field="*{nickname}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="phone_number" class="form-label">핸드폰번호</label>
+            <input type="tel" th:field="*{phone_number}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="intro" class="form-label">설명</label>
+            <input type="text" th:field="*{intro}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="profile_img" class="form-label">프로필 이미지</label>
+            <input type="text" th:field="*{profile_img}" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">회원가입</button>
+    </form>
+    <form th:action="@{/user/login}" method="get">
+        <button type="submit" class="btn btn-primary">로그인</button>
+    </form>
+</div>
+</html>

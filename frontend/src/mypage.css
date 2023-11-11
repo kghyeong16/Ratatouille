@@ -1,0 +1,79 @@
+body {
+  background-color: #f5f0f6;
+}
+
+.mypage {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 가로 가운데 정렬 */
+}
+
+/* Style the profile section */
+.profile-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1048px;
+}
+
+/* Style the "프로필 수정" button */
+.modify-btn .btn {
+  background-color: #ff385c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modify-btn .btn:hover {
+  background-color: #ff4f4f;
+}
+
+/* Style the "Test" button */
+button {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0px 0;
+}
+
+
+button[type="button"]:hover {
+  background-color: #ff4f4f;
+  border: none;
+}
+
+/* Style the mid-title */
+.mid-title {
+  font-size: 20px;
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+/* Style the CardList */
+.big-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  gap: 20px;
+  max-width: 100%; /* Add this line */
+  margin: 0 auto; /* Add this line to center align the grid */
+}
+
+/* Style individual cards */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more specific styles as needed */

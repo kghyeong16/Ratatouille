@@ -1,0 +1,75 @@
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 20px;
+  overflow-x: auto; /* 가로 스크롤 추가 */
+  align-content: flex-start; /* 여러 줄이 있을 때 위쪽으로 정렬 */
+  justify-content: flex-start; /* 왼쪽 정렬 */
+}
+
+.title-container {
+  width: 150px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-right:10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.guide-title {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.video-title-list {
+  font-size: 16px;
+  color: #333;
+}
+
+.video-title {
+  cursor: pointer;
+}
+
+.highlight {
+  font-weight: bold;
+  color: red;
+}
+
+.video-player {
+  max-width: 100%; /* 최대 너비 설정으로 화면에 맞게 조절됨 */
+  height: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-right:10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-title {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.video-content {
+  font-size: 16px;
+  color: #333;
+}
+.Q-button{
+  display: flex;
+  justify-content: center;
+  margin-top:2rem;
+  margin-bottom : 2rem;
+}
+
+.Q-button button:hover {
+  background-color: rgb(255, 148, 148);
+}

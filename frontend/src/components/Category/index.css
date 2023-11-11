@@ -1,0 +1,58 @@
+/* .shortcut-container{
+  margin-bottom:12px;
+}
+.wrapper{
+  width:auto;
+  height:auto;
+  min-width: 0px;
+  min-height: 1px;;
+}
+.shortcut-list{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:20px;
+}
+.item-wrapper{
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  width: 60px;
+  height: 83px;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(170, 170, 170);
+}
+.image-wrapper{
+  max-height:1px;
+} */
+
+.category-buttons{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem; 
+}
+
+.label{
+  font-size: larger;
+  font-weight: bold;
+}
+
+#btn{
+  border-radius: 20%;
+  border-color: #d5cdd6;
+  cursor:pointer;
+  background-color: #ede5ed;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.category-img{
+  width: 60px;
+}
+.selected{
+  color:#ff385c;
+}

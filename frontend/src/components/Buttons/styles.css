@@ -1,0 +1,28 @@
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px
+}
+
+.default {
+  background-color: #ff385c;
+  color: #ffffff;
+  font-size: 1.3rem;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.complete {
+  background-color: darkgreen;
+  color: #ffffff;
+  font-size: 1.3rem;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+/* .input-container{
+  display:flex;
+  justify-content: flex-start;
+} */

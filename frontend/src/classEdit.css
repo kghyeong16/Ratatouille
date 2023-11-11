@@ -1,0 +1,50 @@
+.edit-container {
+  display: flex;
+  justify-content: center;
+}
+
+.class-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1048px;
+}
+
+.edit-body {
+  display: flex;
+  justify-content: center;
+  width: 1048px;
+}
+
+.image-preview-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-upload-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.img-upload-preview {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.edit-recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1048px;
+  height: fit-content;
+  margin: auto;
+  padding: 20px;
+}
