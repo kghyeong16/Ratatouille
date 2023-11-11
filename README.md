@@ -1,5 +1,5 @@
 
-![logo](./frontend/public/logo/logo.png){: width="100" height="100"} 
+![logo](./frontend/public/logo/logo.png)
 
 # 프로젝트 소개
 요리를 직접 해서 먹고 싶지만, 쿠킹 클래스를 신청해서 다니기에는 시간과 돈이 모자란 사람들과
