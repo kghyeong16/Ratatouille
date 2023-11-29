@@ -10,4 +10,8 @@
 # ERD
 ![ERD](./img/cooking_class.png)
 
+# 화면
 
+![HomePage](https://github.com/kghyeong16/Ratatouille/assets/122796279/b3f8a43c-a873-4c50-abd1-e07f6f1a45f1)
+![ClassCreate1](https://github.com/kghyeong16/Ratatouille/assets/122796279/ab5306a5-425a-4995-93c3-2607779be199)
+![ClassCreate2](https://github.com/kghyeong16/Ratatouille/assets/122796279/32dfcd1e-0bb1-4226-8e04-4be5f566f5a5)
